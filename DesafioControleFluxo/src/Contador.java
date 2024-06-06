@@ -29,8 +29,8 @@ public class Contador {
         }
 
         int contagem = num2 - num1;
-            for (int i = 0; i <= contagem; i++) {
-                System.out.println("Imprimindo " + contagem);
+            for (int i = 1; i <= contagem; i++) {
+                System.out.println("Imprimindo " + i);
         }
     }
 }
